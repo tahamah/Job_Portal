@@ -5,11 +5,10 @@ const Footer = () => {
   return (
     <>
       <Subscribe />
-
       <footer class='bg-white dark:bg-gray-900 border-t-2'>
         <div class=' p-8 py-8 pt-16 lg:py-8'>
           <div class='md:flex md:justify-between mx-auto w-full max-w-screen-xl'>
-            <div class='mb-10 md:mb-0'>
+            <div data-aos='zoom-in-right' class='mb-10 md:mb-0'>
               <a href='https://flowbite.com/' class='flex items-center'>
                 <img
                   src='https://flowbite.com/docs/images/logo.svg'
@@ -29,7 +28,11 @@ const Footer = () => {
               </div>
             </div>
             <div class=' md:flex md:gap-16'>
-              <div>
+              <div
+                data-aos='flip-right'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='2000'
+              >
                 <h2 class='mb-4 mt-8 md:mt-0 md:mb-8 text-lg font-semibold text-gray-900 uppercase dark:text-white'>
                   For Candidates
                 </h2>
@@ -41,7 +44,7 @@ const Footer = () => {
                   <li>My Bookmark </li>
                 </ul>
               </div>
-              <div>
+              <div data-aos='fade-up' data-aos-anchor-placement='top-bottom'>
                 <h2 class='mb-4 mt-8 md:mt-0 md:mb-8 text-lg font-semibold text-gray-900 uppercase dark:text-white'>
                   For Employers
                 </h2>
@@ -52,7 +55,11 @@ const Footer = () => {
                   <li>Job Packages </li>
                 </ul>
               </div>
-              <div>
+              <div
+                data-aos='flip-left'
+                data-aos-easing='ease-out-cubic'
+                data-aos-duration='2000'
+              >
                 <h2 class='mb-4 mt-8 md:mt-0 md:mb-8 text-lg font-semibold text-gray-900 uppercase dark:text-white'>
                   About Us
                 </h2>
@@ -64,7 +71,7 @@ const Footer = () => {
                   <li>Contact </li>
                 </ul>
               </div>
-              <div>
+              <div data-aos='zoom-in-left'>
                 <h2 class='mb-4 mt-8 md:mt-0 md:mb-8 text-lg font-semibold text-gray-900 uppercase dark:text-white'>
                   Helpful Resources
                 </h2>
@@ -79,7 +86,12 @@ const Footer = () => {
             </div>
           </div>
           <hr class='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
-          <div class='sm:flex sm:items-center sm:justify-between mx-auto w-full max-w-screen-xl'>
+          <div
+            data-aos-delay='800'
+            data-aos='flip-left'
+            data-aos-duration='1500'
+            class='sm:flex sm:items-center sm:justify-between mx-auto w-full max-w-screen-xl mb-12'
+          >
             <span class='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
               © 2023{' '}
               <a href='https://flowbite.com/' class='hover:underline'>

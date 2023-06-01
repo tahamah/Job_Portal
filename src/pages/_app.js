@@ -8,7 +8,7 @@ import 'aos/dist/aos.css' // You can also use <link> for styles
 export default function App({ Component, pageProps }) {
 useEffect(() => {
   AOS.init({
-    duration: 800, 
+    duration: 1500, 
     offset: 100, 
 
   })

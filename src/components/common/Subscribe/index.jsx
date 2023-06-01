@@ -4,9 +4,11 @@ import Image from 'next/image'
 
 const Subscribe = () => {
   return (
-    <div data-aos='zoom-in-up' className=' border-t-2'>
+    <div  className=' border-t-2'>
       <div
+        data-aos-delay='800'
         data-aos='flip-left'
+        data-aos-duration='1500'
         class='md:flex md:justify-between mx-auto w-full max-w-screen-xl items-center py-14 '
       >
         <div className=' md:flex items-center gap-10 px-5'>
@@ -20,7 +22,11 @@ const Subscribe = () => {
             </p>
           </div>
         </div>
-        <div data-aos='flip-right'>
+        <div
+          data-aos-delay='800'
+          data-aos-duration='1500'
+          data-aos='flip-right'
+        >
           <form class=' md:flex gap-4 items-center px-6 md:px-0'>
             <label for='simple-search' class='sr-only'>
               Search
