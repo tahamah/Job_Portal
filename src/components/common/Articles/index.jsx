@@ -5,7 +5,7 @@ import Section_Img from '../../../assets/Section_Img.png'
 
 const Articles = () => {
   return (
-    <div className='max-w-7xl mx-auto px-6 md:px-0'>
+    <div className='max-w-7xl mx-auto px-6 md:px-0 mt-10'>
       <div className='md:flex gap-20 justify-between items-center'>
         <div data-aos='fade-up-right' className=' max-w-lg'>
           <h3 className='text-3xl font-semibold mb-5'>
