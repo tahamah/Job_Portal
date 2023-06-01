@@ -1,11 +1,18 @@
 import React from 'react'
+import Footer_Logo from '../../../assets/Footer_Logo.jpeg'
+import Image from 'next/image'
 
 const Subscribe = () => {
   return (
-    <div className=' border-t-2'>
-      <div class='md:flex md:justify-between mx-auto w-full max-w-screen-xl items-center py-14 '>
+    <div data-aos='zoom-in-up' className=' border-t-2'>
+      <div
+        data-aos='flip-left'
+        class='md:flex md:justify-between mx-auto w-full max-w-screen-xl items-center py-14 '
+      >
         <div className=' md:flex items-center gap-10 px-5'>
-          <div className='text-center'>Img</div>
+          <div className='text-center'>
+            <Image height={70} width={70} src={Footer_Logo} alt='Footer Logo' />
+          </div>
           <div className='py-4'>
             <h3 className='text-2xl font-sana '>Subscribe to our newsletter</h3>
             <p className='text-normal text-gray-500'>
@@ -13,7 +20,7 @@ const Subscribe = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div data-aos='flip-right'>
           <form class=' md:flex gap-4 items-center px-6 md:px-0'>
             <label for='simple-search' class='sr-only'>
               Search
