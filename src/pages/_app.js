@@ -1,9 +1,9 @@
+import Layout from '../components/Layouts'
 import { useEffect } from 'react'
-import Layout from '@/components/layouts'
-import '@/styles/globals.css'
+import '../styles/globals.css'
+import 'aos/dist/aos.css' 
 import AOS from 'aos'
-import 'aos/dist/aos.css' // You can also use <link> for styles
-// ..
+
 
 export default function App({ Component, pageProps }) {
 useEffect(() => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Subscribe from '../Subscribe'
+import Subscribe from '../../HomePage/Subscribe'
 
 const Footer = () => {
   return (

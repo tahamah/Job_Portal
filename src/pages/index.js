@@ -1,6 +1,6 @@
-import Articles from "@/components/common/Articles"
-import FindJob from "@/components/common/FindJob"
-import HeroSection from "@/components/common/HeroSection"
+import Articles from '../components/HomePage/Articles'
+import FindJob from '../components/HomePage/FindJob'
+import HeroSection from '../components/HomePage/HeroSection'
 
 export default function Home() {
   return (
