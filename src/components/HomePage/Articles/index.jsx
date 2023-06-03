@@ -2,6 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 import { MdDone } from 'react-icons/md'
 import Section_Img from '../../../assets/Section_Img.png'
+import Article1 from "../../../assets/Article-1.png";
+import Article2 from "../../../assets/Article-2.png";
+import Article3 from "../../../assets/Article-3.png";
 
 const Articles = () => {
   return (
@@ -41,12 +44,12 @@ const Articles = () => {
           </button>
         </div>
         <div data-aos='fade-up-left'>
-          <Image height={300} width={500} src={Section_Img} alt='' />
+          <Image height={300} width={500} src={Article1} alt='' />
         </div>
       </div>
       <div className='md:flex gap-20 justify-between items-center py-32'>
         <div data-aos='fade-right'>
-          <Image height={300} width={500} src={Section_Img} alt='' />
+          <Image height={300} width={500} src={Article2} alt='' />
         </div>
         <div data-aos='fade-left' className=' max-w-lg'>
           <h3 className='text-3xl font-semibold mb-5'>
@@ -91,7 +94,7 @@ const Articles = () => {
           </button>
         </div>
         <div data-aos='fade-up-left'>
-          <Image height={300} width={500} src={Section_Img} alt='' />
+          <Image height={300} width={500} src={Article3} alt='' />
         </div>
       </div>
     </div>

@@ -1,9 +1,11 @@
-import React from 'react'
 import Hero_Section from '../../../assets/hero_main.png'
-import Left_Shap from '../../../assets/shap.webp'
 import Marker from '../../../assets/mark-heading.webp'
-import Image from 'next/image'
+import Left_Shap from '../../../assets/shap.webp'
+import Logo from "../../../assets/LOGO.jpg";
 import HowItWork from '../HowItWork'
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
 
 const HeroSection = () => {
   return (
@@ -16,7 +18,9 @@ const HeroSection = () => {
 
         <div className='flex max-w-7xl mx-auto items-center'>
           <div className='w-2/3 relative'>
-            <div className=' absolute -top-72'>Logo</div>
+            <Link href='/' className=' absolute -top-72'>
+              <Image src={Logo} alt='logo' height={50} />
+            </Link>
             <div className=' absolute top-16 left-[180px]'>
               <Image src={Marker} alt='Shap' height={18} />
             </div>
@@ -36,11 +40,16 @@ const HeroSection = () => {
             </div>
           </div>
           <div className='-mr-[20rem] relative'>
-            <Image src={Hero_Section} alt='Hero Image' />
+            <Image className='-z-50' src={Hero_Section} alt='Hero Image' />
+            <Link href='/contact-us'>
+              <button className='bg-blue-700 hover:bg-blue-400 duration-300 absolute top-3 rounded-lg text-gray-50 px-5 py-2 right-80'>
+                Contact Us
+              </button>
+            </Link>
           </div>
         </div>
       </div>
-     <HowItWork/>
+      <HowItWork />
     </div>
   )
 }
