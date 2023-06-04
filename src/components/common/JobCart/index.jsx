@@ -5,7 +5,7 @@ import { IoLocationOutline } from 'react-icons/io5'
 
 const JobCart = () => {
   return (
-    <div className='border rounded-md w-1/3 py-3 pr-3'>
+    <div className='border duration-300 rounded-md w-1/3 py-3 pr-3 hover:bg-blue-50 cursor-pointer hover:-translate-y-1'>
       {/* First Section */}
       <div className='flex justify-between'>
         <div>
