@@ -23,7 +23,7 @@ const defaultProps = {
           exclusive map listing provided below.
         </p>
       </div>
-      <div className='-mt-32 px-5 rounded' style={{ height: '500px', width: '100%' }}>
+      <div className='-mt-32 px-3 md:px-5 rounded h-[300px] md:h-[500px]' style={{ width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: '' }}
           defaultCenter={defaultProps.center}

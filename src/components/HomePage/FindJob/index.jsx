@@ -10,7 +10,7 @@ const FindJob = () => {
       </h1>
       {/* Job Cart */}
       <div className='max-w-7xl mx-auto my-16'>
-        <div className='flex  gap-5 justify-between'>
+        <div className='grid  md:grid-cols-3 px-10 md:px-0 gap-10'>
           <JobCart />
           <JobCart />
           <JobCart />

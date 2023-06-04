@@ -2,11 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='max-w-7xl mx-auto flex items-center'>
-      <div className='w-1/2 mt-16'>
+    <div className='max-w-7xl mx-auto md:flex items-center'>
+      <div className='md:w-1/2 mt-16 mx-10 md:mx-0'>
         <h4 className='text-xl font-medium text-blue-700'>Contact Us</h4>
         <div className='w-16 h-0.5 mt-1 ml-3 mb-3  bg-black'></div>
-        <h1 className='text-4xl font-medium leading-relaxed'>
+        <h1 className='md:text-4xl text-3xl font-medium leading-relaxed'>
           Are You Interested In <br /> Online Learning? <br /> Contact Us.
         </h1>
         <p className='mt-10 leading-loose'>
@@ -20,8 +20,8 @@ const Contact = () => {
         <p>Director</p>
       </div>
 
-      <div className='w-1/2 '>
-        <form className=' shadow-xl max-w-md bg-slate-50 p-8 -mt-28 z-10'>
+      <div className='md:w-1/2 mx-10 md:mx-0'>
+        <form className=' shadow-xl max-w-md bg-slate-50 p-8 md:-mt-28 z-10'>
           <h1 className='text-4xl font-medium mb-5'>
             Fill Out For <br /> Contact
           </h1>

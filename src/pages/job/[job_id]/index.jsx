@@ -21,7 +21,7 @@ import {
 const JobDescription = () => {
   return (
     <div className='max-w-7xl mx-auto pb-20'>
-      <nav className='flex justify-between mt-5 items-center'>
+      <nav className='flex justify-between mt-5 mx-5 md:mx-0 items-center'>
         <Link href='/'>
           <Image src={Logo} alt='logo' height={50} />
         </Link>
@@ -31,14 +31,14 @@ const JobDescription = () => {
           </button>
         </Link>
       </nav>
-      <section className='bg-blue-50 mt-16 px-10 py-10 flex justify-between items-center'>
-        <div className='flex gap-5 items-center'>
-          <div>Img</div>
+      <section className='bg-blue-50 mt-16 px-10 py-10 md:flex justify-between items-center'>
+        <div className='md:flex gap-5 items-center md:mb-0 mb-8'>
+          <div className='mb-5'>Img</div>
           <div>
             <h2 className='text-xl font-medium'>
               Software Engineer (Android), Libraries
             </h2>
-            <div className='flex gap-5 items-center my-4 text-gray-500 font-medium'>
+            <div className='flex flex-wrap gap-5 items-center my-4 text-gray-500 font-medium'>
               <div className=' flex items-center gap-2'>
                 <span>
                   <BsFillBriefcaseFill />
@@ -89,8 +89,8 @@ const JobDescription = () => {
           </span>
         </div>
       </section>
-      <section className='mt-10 mx-10 flex justify-between gap-20 items-start'>
-        <div className='w-2/3'>
+      <section className='mt-10 mx-10 md:flex justify-between gap-20 items-start'>
+        <div className='md:w-2/3'>
           <h3 className='text-xl pb-5 font-medium'>Job Description</h3>
           <p className=' leading-8'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
@@ -149,7 +149,7 @@ const JobDescription = () => {
             </li>
           </ul>
         </div>
-        <div className='w-1/3 bg-blue-50 p-8 rounded-lg shadow-lg'>
+        <div className='md:w-1/3 bg-blue-50 p-8 rounded-lg shadow-lg'>
           <h3 className='text-xl font-medium pb-3'>Job Overview</h3>
           <div className='flex items-start gap-3 mb-5'>
             <div className='mt-1.5 text-blue-500 text-lg'>

@@ -7,8 +7,8 @@ import React from 'react'
 
 const GetInTouch = () => {
   return (
-    <div className='flex justify-center items-center gap-16 max-w-7xl mx-auto'>
-      <div className='w-1/2 relative'>
+    <div className='md:flex justify-center items-center gap-16 max-w-7xl mx-auto px-10 md:px-0'>
+      <div className='md:w-1/2 relative'>
         <h2 className='text-2xl font-semibold'>Get in touch</h2>
         <div className='w-12 h-1 mt-2 ml-3 bg-black'></div>
         <p className='my-5 leading-8'>
@@ -56,7 +56,7 @@ const GetInTouch = () => {
           </li>
         </ul>
       </div>
-      <div className='w-1/2'>
+      <div className='md:w-1/2 my-10 md:my-0'>
         <Image src={TouchImg} alt='' />
       </div>
     </div>

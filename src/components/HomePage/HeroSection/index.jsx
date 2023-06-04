@@ -1,7 +1,7 @@
 import Hero_Section from '../../../assets/hero_main.png'
 import Marker from '../../../assets/mark-heading.webp'
 import Left_Shap from '../../../assets/shap.webp'
-import Logo from "../../../assets/LOGO.jpg";
+import Logo from '../../../assets/LOGO.jpg'
 import HowItWork from '../HowItWork'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -17,7 +17,7 @@ const HeroSection = () => {
         </div>
 
         <div className='flex max-w-7xl mx-auto items-center'>
-          <div className='w-2/3 relative'>
+          <div className='w-2/3 relative pl-5 md:pl-0'>
             <Link href='/' className=' absolute -top-72'>
               <Image src={Logo} alt='logo' height={50} />
             </Link>
