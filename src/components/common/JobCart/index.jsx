@@ -2,10 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import JobImg from '../../../assets/upwork.jpg'
 import { IoLocationOutline } from 'react-icons/io5'
+import Link from 'next/link'
 
 const JobCart = () => {
   return (
-    <div className='border duration-300 rounded-md w-1/3 py-3 pr-3 hover:bg-blue-50 cursor-pointer hover:-translate-y-1'>
+    <Link href='job/job-details' className='border duration-300 rounded-md w-full py-3 pr-3 hover:bg-blue-50 cursor-pointer hover:-translate-y-1'>
       {/* First Section */}
       <div className='flex justify-between'>
         <div>
@@ -64,7 +65,7 @@ const JobCart = () => {
           </span>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

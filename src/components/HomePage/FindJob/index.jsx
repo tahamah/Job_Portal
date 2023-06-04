@@ -1,4 +1,5 @@
 import JobCart from '@/components/common/JobCart'
+import Link from 'next/link'
 import React from 'react'
 
 const FindJob = () => {
@@ -18,7 +19,11 @@ const FindJob = () => {
 
       {/*  */}
       <div className='text-center text-blue-600 '>
-        <button className='hover:underline underline-offset-4 duration-300 px-10 py-5'>Show More</button>
+        <Link Link href={'/job/show-all-jobs'}>
+          <button className='hover:underline underline-offset-4 duration-300 px-10 py-5'>
+            Show More
+          </button>
+        </Link>
       </div>
     </div>
   )
