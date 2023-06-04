@@ -5,6 +5,8 @@ import Section_Img from '../../../assets/Section_Img.png'
 import Article1 from "../../../assets/Article-1.png";
 import Article2 from "../../../assets/Article-2.png";
 import Article3 from "../../../assets/Article-3.png";
+import { SiAltiumdesigner } from 'react-icons/si'
+import { BiCustomize } from 'react-icons/bi';
 
 const Articles = () => {
   return (
@@ -75,14 +77,18 @@ const Articles = () => {
 
           <div>
             <div className='flex justify-center items-center gap-5 my-8'>
-              <div>img</div>
+              <div className='bg-pink-500 text-gray-50 text-4xl p-3 rounded-full'>
+                <SiAltiumdesigner />
+              </div>
               <div>
                 <h5 className='text-md font-semibold pb-3'>Awesome design</h5>
                 <p>Duis aute irute dolor reprehen deril in volu velit.</p>
               </div>
             </div>
             <div className='flex justify-center items-center gap-5'>
-              <div>img</div>
+              <div className='bg-pink-500 text-gray-50 text-4xl p-3 rounded-full'>
+                <BiCustomize />
+              </div>
               <div>
                 <h5 className='text-md font-semibold pb-3'>Easy Customize</h5>
                 <p>Duis aute irute dolor reprehen deril in volu velit.</p>

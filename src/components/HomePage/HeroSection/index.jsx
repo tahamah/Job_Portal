@@ -12,7 +12,7 @@ const HeroSection = () => {
     <div className='bg-gray-100 pb-10'>
       <div className='relative'>
         {/* Shaps */}
-        <div className=' absolute top-44 -z-50'>
+        <div className=' absolute top-44 z-50'>
           <Image src={Left_Shap} alt='Shap' />
         </div>
 

@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const JobCart = () => {
   return (
-    <Link href='job/job-details' className='border duration-300 rounded-md w-full py-3 pr-3 hover:bg-blue-50 cursor-pointer hover:-translate-y-1'>
+    <Link href='/job/job-details' className='border duration-300 rounded-md w-full py-3 pr-3 hover:bg-blue-50 cursor-pointer hover:-translate-y-1'>
       {/* First Section */}
       <div className='flex justify-between'>
         <div>
