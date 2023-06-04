@@ -49,11 +49,11 @@ const Articles = () => {
           <Image height={300} width={500} src={Article1} alt='' />
         </div>
       </div>
-      <div className='md:flex gap-20 justify-between items-center py-32'>
-        <div data-aos='fade-right'>
+      <div className='flex flex-col-reverse md:flex-row gap-20 justify-between items-center py-32'>
+        <div data-aos='fade-right' className='grow'>
           <Image height={300} width={500} src={Article2} alt='' />
         </div>
-        <div data-aos='fade-left' className=' max-w-lg'>
+        <div data-aos='fade-left' className=' max-w-lg grow-0'>
           <h3 className='text-3xl font-semibold mb-5'>
             Build a good <br /> resume
           </h3>
