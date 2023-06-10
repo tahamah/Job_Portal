@@ -1,5 +1,5 @@
 import Job_Logo from '../../../assets/upwork.jpg'
-import Logo from '../../../assets/'
+import Logo from '@/assets/LOGO.png'
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -24,17 +24,7 @@ const JobDescription = () => {
   const [openModal, setOpenModal] = useState(false)
   return (
     <>
-      <div className='max-w-6xl mx-auto pb-20'>
-        <nav className='flex justify-between mt-5 mx-5 md:mx-0 items-center'>
-          <Link href='/'>
-            <Image src={Logo} alt='logo' height={50} />
-          </Link>
-          <Link href='/contact-us'>
-            <button className='bg-blue-700 hover:bg-blue-400 duration-300  rounded-lg text-gray-50 px-5 py-2'>
-              Contact Us
-            </button>
-          </Link>
-        </nav>
+      <div className='max-w-6xl mx-auto pb-20'>    
         <section className='bg-blue-50 mt-16 px-10 py-10 md:flex justify-between items-center'>
           <div className='md:flex gap-5 items-start md:mb-0 mb-8'>
             <div className='mt-2 mb-5 md:mb-0'>

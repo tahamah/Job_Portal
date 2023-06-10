@@ -17,12 +17,9 @@ const HeroSection = () => {
           <div className=' absolute top-44 z-50'>
             <Image src={Left_Shap} alt='Shap' />
           </div>
-
+         
           <div className='flex max-w-6xl mx-auto items-center'>
             <div className='w-2/3 relative pl-5 md:pl-0'>
-              <Link href='/' className=' absolute -top-32 -left-16'>
-                <Image src={Logo} alt='logo' height={150} />
-              </Link>
               <div className=' absolute top-16 left-[180px]'>
                 <Image src={Marker} alt='Shap' height={18} />
               </div>
@@ -53,27 +50,12 @@ const HeroSection = () => {
                 src={Hero_Section}
                 alt='Hero Image'
               />
-              <Link href='/contact-us'>
-                <button className='bg-blue-700 hover:bg-blue-400 duration-300 absolute top-3 rounded-lg text-gray-50 px-5 py-2 right-80'>
-                  Contact Us
-                </button>
-              </Link>
             </div>
           </div>
         </div>
         {/* Mobile */}
-        <div className=' md:hidden '>
-          <div className='flex justify-between py-0.5 items-center px-5 bg-slate-200'>
-            <Link href='/' className='  '>
-              <Image src={Logo} alt='logo' height={50} />
-            </Link>
-
-            <Link href='/contact-us'>
-              <button className='bg-blue-700 hover:bg-blue-400 duration-300  rounded-lg text-gray-50 px-5 py-2 right-80'>
-                Contact Us
-              </button>
-            </Link>
-          </div>
+        <div className=' md:hidden  '>
+        
           <div className=''>
             <Image src={Hero_Section} alt='Hero Image' />
           </div>
@@ -84,7 +66,7 @@ const HeroSection = () => {
           <div className='h-[150px] w-[150px] rounded-full bg-green-700  absolute  opacity-50 top-64 right-[5px]'></div>
 
           <div className='  mx-auto absolute top-20 '>
-            <div className=' pl-5 md:pl-0'>
+            <div className=' pl-5 pt-10 md:pl-0'>
               <h1 className='text-3xl font-semibold leading-relaxed z-10 mb-8 '>
                 Wij vinden de beste
                 <br /> banen voor jou{' '}
