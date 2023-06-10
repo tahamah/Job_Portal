@@ -21,10 +21,10 @@ import {
 import ApplyModal from '@/components/Modal/ApplyModal'
 
 const JobDescription = () => {
-  const [openModal,setOpenModal] = useState(false)
+  const [openModal, setOpenModal] = useState(false)
   return (
     <>
-      <div className='max-w-7xl mx-auto pb-20'>
+      <div className='max-w-6xl mx-auto pb-20'>
         <nav className='flex justify-between mt-5 mx-5 md:mx-0 items-center'>
           <Link href='/'>
             <Image src={Logo} alt='logo' height={50} />
@@ -38,7 +38,11 @@ const JobDescription = () => {
         <section className='bg-blue-50 mt-16 px-10 py-10 md:flex justify-between items-center'>
           <div className='md:flex gap-5 items-start md:mb-0 mb-8'>
             <div className='mt-2 mb-5 md:mb-0'>
-              <Image  className='h-20 w-20 rounded-lg' src={Job_Logo} alt='Job Logo' />
+              <Image
+                className='h-20 w-20 rounded-lg'
+                src={Job_Logo}
+                alt='Job Logo'
+              />
             </div>
             <div>
               <h2 className='text-xl font-medium'>
@@ -88,8 +92,9 @@ const JobDescription = () => {
          items-center gap-5'
           >
             <button
-            onClick={()=>setOpenModal(true)}
-              className='bg-blue-700 hover:bg-blue-400 duration-300 rounded-lg text-gray-50 px-5 py-2 '>
+              onClick={() => setOpenModal(true)}
+              className='bg-blue-700 hover:bg-blue-400 duration-300 rounded-lg text-gray-50 px-5 py-2 '
+            >
               Apply for Job
             </button>
             <span className='bg-blue-200  cursor-pointer hover:bg-blue-400 hover:text-gray-50 duration-300 py-2.5 px-2 rounded text-blue-600 font-bold'>

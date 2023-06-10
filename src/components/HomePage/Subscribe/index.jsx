@@ -16,9 +16,11 @@ const Subscribe = () => {
             <Image height={70} width={70} src={Footer_Logo} alt='Footer Logo' />
           </div>
           <div className='py-4'>
-            <h3 className='text-2xl font-sana '>Subscribe to our newsletter</h3>
+            <h3 className='text-2xl font-sana '>
+              Abonneer op onze nieuwsbrief
+            </h3>
             <p className='text-normal text-gray-500'>
-              We{`'`}ll keep you updated with the best new jobs.
+              We houden je op de hoogte van de leukste nieuwe vacatures.
             </p>
           </div>
         </div>
@@ -36,7 +38,7 @@ const Subscribe = () => {
                 type='text'
                 id='simple-search'
                 className='bg-gray-50 md:w-[300px] my-5 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block  w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
-                placeholder='Enter your email'
+                placeholder='Voer uw e-mailadres in'
                 required
               />
             </div>

@@ -2,26 +2,33 @@ import Image from 'next/image'
 import React from 'react'
 import { MdDone } from 'react-icons/md'
 import Section_Img from '../../../assets/Section_Img.png'
-import Article1 from "../../../assets/Article-1.png";
-import Article2 from "../../../assets/Article-2.png";
-import Article3 from "../../../assets/Article-3.png";
+import Article1 from '../../../assets/Article-1.png'
+import Article2 from '../../../assets/Article-2.png'
+import Article3 from '../../../assets/Article-3.png'
 import { SiAltiumdesigner } from 'react-icons/si'
-import { BiCustomize } from 'react-icons/bi';
+import { BiCustomize } from 'react-icons/bi'
 
 const Articles = () => {
   return (
-    <div className='max-w-7xl mx-auto px-6 md:px-0 mt-10'>
+    <div className='max-w-6xl mx-auto px-6 md:px-0 mt-10'>
       <div className='md:flex gap-20 justify-between items-center'>
         <div data-aos='fade-up-right' className=' max-w-lg'>
-          <h3 className='text-3xl font-semibold mb-5'>
-            Search for <br /> jobs
-          </h3>
+          <h3 className='text-3xl font-semibold mb-5'>Zoeken banen</h3>
           <p className='leading-loose'>
-            To start searching for jobs, you can attend job fairs online or in
-            person, use job boards and career websites or reach out directly to
-            recruiters company to broaden your network.
+            Bij [Naam van uw uitzendbureau] begrijpen we dat de zorgsector
+            divers is en verschillende expertise vereist. Daarom hebben we ons
+            netwerk zorgvuldig opgebouwd en hebben we professionals geselecteerd
+            die bekwaam en ervaren zijn in hun vakgebied. Of het nu gaat om
+            ziekenhuizen, verpleeghuizen, thuiszorgorganisaties,
+            gehandicaptenzorginstellingen of andere zorggerelateerde
+            organisaties, wij staan klaar om aan uw personeelsbehoeften te
+            voldoen. Ons team van verpleegkundigen bestaat uit bekwame en
+            empathische zorgprofessionals die zorgen voor hoogwaardige medische
+            zorg aan patiënten. Ze hebben ervaring in verschillende medische
+            specialisaties en zijn goed op de hoogte van de nieuwste
+            ontwikkelingen in de gezondheidszorg.
           </p>
-          <div className='flex flex-col gap-5 mt-8'>
+          {/* <div className='flex flex-col gap-5 mt-8'>
             <div className='flex items-center gap-2'>
               <span>
                 <MdDone />
@@ -43,7 +50,7 @@ const Articles = () => {
           </div>
           <button className='py-2 hover:-translate-y-1 px-4 bg-blue-600 hover:bg-blue-400 duration-300 text-gray-100 mt-10 rounded-md '>
             Discover More
-          </button>
+          </button> */}
         </div>
         <div data-aos='fade-up-left'>
           <Image height={300} width={500} src={Article1} alt='' />
@@ -54,50 +61,51 @@ const Articles = () => {
           <Image height={300} width={500} src={Article2} alt='' />
         </div>
         <div data-aos='fade-left' className=' max-w-lg grow-0'>
-          <h3 className='text-3xl font-semibold mb-5'>
-            Build a good <br /> resume
-          </h3>
+          <h3 className='text-3xl font-semibold mb-5'>Bouw een goed cv</h3>
           <p className='leading-loose'>
-            An efficient resume should promote your abilities and include
-            tangible accomplishments that are relevant to this job you apply
-            for. You should also prepare a cover letter that is concise and
-            elaborations on how you can put your skills to use in the
-            organization.
+            Daarnaast bieden we agogen en begeleiders die gespecialiseerd zijn
+            in het ondersteunen en begeleiden van mensen met speciale behoeften.
+            Ze hebben ervaring in het werken met diverse doelgroepen, zoals
+            mensen met een verstandelijke beperking, psychische aandoeningen of
+            gedragsproblemen. Ze zetten zich in voor het creëren van een veilige
+            en ondersteunende omgeving voor individuen waarbij persoonlijke
+            groei en ontwikkeling centraal staan. Als u behoefte heeft aan
+            toezichthouders en beveiligingspersoneel, kunt u ook op ons rekenen.
+            Onze professionals zijn goed getraind in het handhaven van de
+            veiligheid en het waarborgen van de integriteit binnen
+            zorginstellingen. Ze zijn bekend met protocollen en procedures op
+            het gebied van veiligheid en werken nauw samen met het zorgteam om
+            een veilige omgeving te waarborgen voor zowel medewerkers als
+            patiënten.
           </p>
-          <button className='py-2 hover:-translate-y-1 px-4 bg-blue-600 hover:bg-blue-400 duration-300 text-gray-100 mt-10 rounded-md '>
+          {/* <button className='py-2 hover:-translate-y-1 px-4 bg-blue-600 hover:bg-blue-400 duration-300 text-gray-100 mt-10 rounded-md '>
             Discover More
-          </button>
+          </button> */}
         </div>
       </div>
       <div className='md:flex gap-20 justify-between items-center pb-32'>
         <div data-aos='fade-up-right' className=' max-w-lg'>
           <h3 className='text-3xl font-semibold mb-5'>
-            Perform during your <br /> interview
+            Voer tijdens uw interview
           </h3>
 
-          <div>
-            <div className='flex justify-center items-center gap-5 my-8'>
-              <div className='bg-pink-500 text-gray-50 text-4xl p-3 rounded-full'>
-                <SiAltiumdesigner />
-              </div>
-              <div>
-                <h5 className='text-md font-semibold pb-3'>Awesome design</h5>
-                <p>Duis aute irute dolor reprehen deril in volu velit.</p>
-              </div>
-            </div>
-            <div className='flex justify-center items-center gap-5'>
-              <div className='bg-pink-500 text-gray-50 text-4xl p-3 rounded-full'>
-                <BiCustomize />
-              </div>
-              <div>
-                <h5 className='text-md font-semibold pb-3'>Easy Customize</h5>
-                <p>Duis aute irute dolor reprehen deril in volu velit.</p>
-              </div>
-            </div>
-          </div>
-          <button className='py-2 hover:-translate-y-1 px-4 bg-blue-600 hover:bg-blue-400 duration-300 text-gray-100 mt-10 rounded-md '>
+          <p className='leading-loose'>
+            Bij [Naam van uw uitzendbureau] hechten we grote waarde aan
+            kwaliteit, betrouwbaarheid en flexibiliteit. We begrijpen dat de
+            zorgsector vaak te maken heeft met onvoorziene omstandigheden en
+            plotselinge personeelstekorten. Daarom zijn we er trots op dat we
+            snel en efficiënt kunnen inspelen op uw behoeften en u kunnen
+            voorzien van hoogwaardig personeel op korte termijn. Photo: as it is
+            Contact page form er left A diben: Als u op zoek bent naar
+            professioneel en gekwalificeerd personeel in de zorg, bent u bij
+            [Naam van uw uitzendbureau] aan het juiste adres. Neem vandaag nog
+            contact met ons op en ontdek hoe we u kunnen ondersteunen bij het
+            vervullen van uw personeelsbehoeften. Samen streven we naar
+            uitmuntendheid in de zorg.
+          </p>
+          {/* <button className='py-2 hover:-translate-y-1 px-4 bg-blue-600 hover:bg-blue-400 duration-300 text-gray-100 mt-10 rounded-md '>
             Discover More
-          </button>
+          </button> */}
         </div>
         <div data-aos='fade-up-left'>
           <Image height={300} width={500} src={Article3} alt='' />

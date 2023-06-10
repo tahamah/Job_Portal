@@ -3,10 +3,10 @@ import { BsArrowRightCircle, BsArrowRightCircleFill } from 'react-icons/bs'
 
 const HowItWork = () => {
   return (
-    <div className='mt-28 max-w-7xl mx-auto'>
+    <div className='mt-28 max-w-6xl mx-auto'>
       <p className='text-gray-500 font-semibold text-center'>
         {' '}
-        Trusted by the world{`'`}s leading companies
+        Vertrouwd door{`'`}s werelds toonaangevende bedrijven
       </p>
       <ul className='md:flex text-center leading-relaxed justify-center items-center gap-10 mt-10 md:mb-28 mb-10 text-3xl text-gray-500'>
         <li>coinbase</li>
@@ -16,9 +16,12 @@ const HowItWork = () => {
         <li className='font-bold'>strip</li>
         <li>upwork</li>
       </ul>
-      <h2 className=' text-center text-3xl my-5 font-semibold'>How it work</h2>
+      <h2 className=' text-center text-3xl my-5 font-semibold'>
+        Hoe het werkt
+      </h2>
       <p className=' text-gray-500 text-center px-5'>
-        Explore the following these steps will help you to find a job easily
+        Ontdek het volgende. Deze stappen helpen je om gemakkelijk een baan te
+        vinden{' '}
       </p>
       {/* Dextop */}
       <div className='my-10 mb-20 hidden md:flex items-center justify-around'>
@@ -26,8 +29,8 @@ const HowItWork = () => {
           <span className='bg-blue-500 text-gray-50 text-5xl py-1.5 px-5 rounded-full'>
             1
           </span>
-          <h3 className='mt-4 mb-2'>Register Account</h3>
-          <p>First, you need to make an account</p>
+          <h3 className='mt-4 mb-2'>Account Registreren</h3>
+          <p>Eerst moet u een account aanmaken</p>
         </div>
         <div className='text-4xl text-green-700 cursor-pointer hover:translate-x-2 duration-300'>
           <BsArrowRightCircleFill />
@@ -36,8 +39,8 @@ const HowItWork = () => {
           <span className='bg-blue-500 text-gray-50 text-5xl py-1.5 px-5 rounded-full'>
             2
           </span>
-          <h3 className='mt-4 mb-2'>Register Account</h3>
-          <p>First, you need to make an account</p>
+          <h3 className='mt-4 mb-2'>Account Registreren</h3>
+          <p>Eerst moet u een account aanmaken</p>
         </div>
         <div className='text-4xl text-green-700 cursor-pointer hover:translate-x-2 duration-300'>
           <BsArrowRightCircleFill />
@@ -46,8 +49,8 @@ const HowItWork = () => {
           <span className='bg-blue-500 text-gray-50 text-5xl py-1.5 px-5 rounded-full'>
             3
           </span>
-          <h3 className='mt-4 mb-2'>Register Account</h3>
-          <p>First, you need to make an account</p>
+          <h3 className='mt-4 mb-2'>Account Registreren</h3>
+          <p>Eerst moet u een account aanmaken</p>
         </div>
       </div>
       {/* Mobile */}
@@ -59,7 +62,7 @@ const HowItWork = () => {
           <h3 className='mt-4 mb-2'>Register Account</h3>
           <p>First, you need to make an account</p>
         </div>
-       
+
         <div className='text-center'>
           <span className='bg-blue-500 text-gray-50 text-5xl py-1.5 px-5 rounded-full'>
             2
@@ -67,7 +70,7 @@ const HowItWork = () => {
           <h3 className='mt-4 mb-2'>Register Account</h3>
           <p>First, you need to make an account</p>
         </div>
-    
+
         <div className='text-center'>
           <span className='bg-blue-500 text-gray-50 text-5xl py-1.5 px-5 rounded-full'>
             3

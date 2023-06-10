@@ -7,7 +7,7 @@ import React from 'react'
 
 const GetInTouch = () => {
   return (
-    <div className='md:flex justify-center items-center gap-16 max-w-7xl mx-auto px-10 md:px-0'>
+    <div className='md:flex justify-center items-center gap-16 max-w-6xl mx-auto px-10 md:px-0'>
       <div className='md:w-1/2 relative'>
         <h2 className='text-2xl font-semibold'>Get in touch</h2>
         <div className='w-12 h-1 mt-2 ml-3 bg-black'></div>

@@ -2,10 +2,11 @@ import React from 'react'
 
 const AddJob = () => {
   return (
-    <div className='max-w-7xl mx-auto py-16 px-5 '>
-
+    <div className='max-w-6xl mx-auto py-16 px-5 '>
       <form className='max-w-4xl mx-auto shadow-xl p-10 border rounded-xl'>
-      <h2 className='text-3xl font-medium pb-10 text-center'>Post a new job</h2>
+        <h2 className='text-3xl font-medium pb-10 text-center'>
+          Post a new job
+        </h2>
         <div class='grid gap-6 mb-6 md:grid-cols-2'>
           <div>
             <label

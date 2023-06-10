@@ -18,9 +18,9 @@ const HeroSection = () => {
             <Image src={Left_Shap} alt='Shap' />
           </div>
 
-          <div className='flex max-w-7xl mx-auto items-center'>
+          <div className='flex max-w-6xl mx-auto items-center'>
             <div className='w-2/3 relative pl-5 md:pl-0'>
-              <Link href='/' className=' absolute -top-72'>
+              <Link href='/' className=' absolute -top-28'>
                 <Image src={Logo} alt='logo' height={50} />
               </Link>
               <div className=' absolute top-16 left-[180px]'>
@@ -28,21 +28,31 @@ const HeroSection = () => {
               </div>
               <div className='h-[100px] w-[100px] rounded-full bg-green-700  opacity-25 absolute -top-28 left-[250px]'></div>
               <h1 className='text-5xl font-semibold leading-relaxed z-10 mb-10 '>
-                We find the best <br /> jobs for you{' '}
+                Wij vinden de beste
+                <br /> banen voor jou{' '}
               </h1>
               <p className='text-gray-400 text-normal font-medium leading-loose'>
-                Fill your job in hours, not weeks. Search for free.
+                left side description with large welcome note and then small:
+                Welkom bij [Naam van uw uitzendbureau] in de zorg! Wij zijn een
+                betrouwbare partner die gespecialiseerd is in het leveren van
+                hoogwaardig personeel voor de zorgsector.
               </p>
               <div className='relative'>
                 <p className='text-gray-600 text-normal font-medium leading-loose'>
-                  Popular Searches: Data Scientist, UX design{' '}
+                  Met trots bieden wij een breed scala aan gekwalificeerde
+                  professionals, variërend van verpleegkundigen tot agogen,
+                  begeleiders, toezichthouders en beveiligingspersoneel.
                 </p>
                 <div className='h-[150px] w-[150px] rounded-full bg-green-700  opacity-25 absolute top-28 left-[30px]'></div>
                 <div className='h-[200px] w-[200px] rounded-full bg-[#FFD75D] absolute  opacity-50 top-56 left-[450px]'></div>
               </div>
             </div>
             <div className='-mr-[20rem] relative'>
-              <Image className='-z-50' src={Hero_Section} alt='Hero Image' />
+              <Image
+                className='-z-50 max-h-[600px]'
+                src={Hero_Section}
+                alt='Hero Image'
+              />
               <Link href='/contact-us'>
                 <button className='bg-blue-700 hover:bg-blue-400 duration-300 absolute top-3 rounded-lg text-gray-50 px-5 py-2 right-80'>
                   Contact Us
@@ -76,14 +86,20 @@ const HeroSection = () => {
           <div className='  mx-auto absolute top-20 '>
             <div className=' pl-5 md:pl-0'>
               <h1 className='text-3xl font-semibold leading-relaxed z-10 mb-8 '>
-                We find the best <br /> jobs for you{' '}
+                Wij vinden de beste
+                <br /> banen voor jou{' '}
               </h1>
               <p className='text-gray-500 text-normal font-medium leading-loose'>
-                Fill your job in hours, not weeks. Search for free.
+                left side description with large welcome note and then small:
+                Welkom bij [Naam van uw uitzendbureau] in de zorg! Wij zijn een
+                betrouwbare partner die gespecialiseerd is in het leveren van
+                hoogwaardig personeel voor de zorgsector.
               </p>
               <div className='relative'>
                 <p className='text-gray-700 text-normal font-medium leading-loose'>
-                  Popular Searches: Data Scientist, UX design{' '}
+                  Met trots bieden wij een breed scala aan gekwalificeerde
+                  professionals, variërend van verpleegkundigen tot agogen,
+                  begeleiders, toezichthouders en beveiligingspersoneel.
                 </p>
               </div>
             </div>
