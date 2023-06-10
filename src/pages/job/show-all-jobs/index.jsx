@@ -4,7 +4,7 @@ import React from 'react'
 const ShowAllJobs = () => {
   return (
     <div className='pb-28'>
-      <h1 className=' bg-blue-100 text-3xl text-center py-10 font-medium'>
+      <h1 className='  text-3xl text-center pb-10 pt-20  font-medium'>
         Vind je baan{' '}
       </h1>
       {/* Job Cart */}
