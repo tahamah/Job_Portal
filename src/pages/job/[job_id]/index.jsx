@@ -1,5 +1,5 @@
 import Job_Logo from '../../../assets/upwork.jpg'
-import Logo from '../../../assets/LOGO.jpg'
+import Logo from '../../../assets/'
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
