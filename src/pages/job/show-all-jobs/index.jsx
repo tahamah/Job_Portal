@@ -5,7 +5,7 @@ const ShowAllJobs = () => {
   return (
     <div className='pb-28'>
       <h1 className=' bg-blue-100 text-3xl text-center py-10 font-medium'>
-        Find Your Job
+        Vind je baan{' '}
       </h1>
       {/* Job Cart */}
       <div className='max-w-6xl mx-auto my-16'>
