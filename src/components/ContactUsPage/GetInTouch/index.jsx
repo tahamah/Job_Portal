@@ -10,13 +10,13 @@ const GetInTouch = () => {
     <div className='md:flex justify-center items-center gap-16 max-w-6xl mx-auto px-10 md:px-0'>
       <div className='md:w-1/2 relative'>
         <h2 className='text-2xl font-semibold'>Neem contact op</h2>
-        <div className='w-12 h-1 mt-2 ml-3 bg-black'></div>
-        <p className='my-5 leading-8'>
+        <div className='w-12 h-1 mt-2 ml-3 bg-black '></div>
+        {/* <p className='my-5 leading-8'>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
           accusamus quod error corporis asperiores illo, unde est! Nam numquam
           sed cupiditate repelllat debitis eaque sitilique.
-        </p>
-        <ul className='flex flex-col gap-2.5'>
+        </p> */}
+        <ul className='flex flex-col gap-2.5 mt-5'>
           <li className='flex gap-2 items-center'>
             {' '}
             <span className='text-red-600'>

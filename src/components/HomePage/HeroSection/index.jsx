@@ -19,7 +19,7 @@ const HeroSection = () => {
           </div>
 
           <div className='flex max-w-6xl mx-auto items-center'>
-            <div className='w-2/3 relative pl-5 md:pl-0'>
+            <div className='w-2/3 relative md:mr-20 pl-5 md:pl-0'>
               <div className=' absolute top-16 left-[180px]'>
                 <Image src={Marker} alt='Shap' height={18} />
               </div>

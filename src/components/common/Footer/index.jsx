@@ -1,5 +1,8 @@
 import React from 'react'
 import Subscribe from '../../HomePage/Subscribe'
+import logo from '@/assets/LOGO.png'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -10,20 +13,12 @@ const Footer = () => {
           <div className='md:flex md:justify-between mx-auto w-full max-w-screen-xl'>
             <div data-aos='zoom-in-right' className='mb-10 md:mb-0'>
               <a href='https://flowbite.com/' className='flex items-center'>
-                <img
-                  src='https://flowbite.com/docs/images/logo.svg'
-                  className='h-8 mr-3'
-                  alt='FlowBite Logo'
-                />
-                <span className='self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
-                  Superio
-                </span>
+                <Image src={logo} className='w-44' alt='FlowBite Logo' />
               </a>
-              <p className='py-2'>Call us</p>
+
               <p className='text-blue-500  text-2xl font-bold'>123 456 789</p>
               <div className='flex flex-col gap-4 pt-5'>
                 <p>329 Queensberry Street, North Melbourne VLC</p>
-                <p>3051, Autralia.</p>
                 <p>support@superio.com</p>
               </div>
             </div>
@@ -37,11 +32,9 @@ const Footer = () => {
                   For Candidates
                 </h2>
                 <ul className='text-gray-600 dark:text-gray-400 font-medium flex flex-col gap-4'>
-                  <li>Browse jobs</li>
-                  <li>Browse Categories</li>
-                  <li>Candidate Dashboard </li>
-                  <li>Job Alerts </li>
-                  <li>My Bookmark </li>
+                  <Link href='/job/show-all-jobs'>
+                    <li>Browse jobs</li>
+                  </Link>
                 </ul>
               </div>
               <div data-aos='fade-up' data-aos-anchor-placement='top-bottom'>
@@ -49,10 +42,9 @@ const Footer = () => {
                   For Employers
                 </h2>
                 <ul className='text-gray-600 dark:text-gray-400 font-medium flex flex-col gap-4'>
-                  <li>Browse Categories</li>
-                  <li>Employer Dashboard </li>
-                  <li>Add Job </li>
-                  <li>Job Packages </li>
+                  <Link href='/admin'>
+                    <li>Browse Categories</li>
+                  </Link>
                 </ul>
               </div>
               <div
@@ -64,34 +56,26 @@ const Footer = () => {
                   About Us
                 </h2>
                 <ul className='text-gray-600 dark:text-gray-400 font-medium flex flex-col gap-4'>
-                  <li>About Us</li>
-                  <li>Job Page Invoice</li>
-                  <li>Terms Page </li>
-                  <li>Blog</li>
-                  <li>Contact </li>
+                  <Link href='/'>
+                    <li>About Us</li>
+                  </Link>
                 </ul>
               </div>
               <div data-aos='zoom-in-left'>
                 <h2 className='mb-4 mt-8 md:mt-0 md:mb-8 text-lg font-semibold text-gray-900 uppercase dark:text-white'>
-                  Helpful Resources
+                  Neem contact op
                 </h2>
                 <ul className='text-gray-600 dark:text-gray-400 font-medium flex flex-col gap-4'>
-                  <li>Site Map</li>
-                  <li>Terms of Use</li>
-                  <li>Privacy Center </li>
-                  <li>Security Center </li>
-                  <li>Accessibility Center </li>
+                  <Link href='/contact-us'>
+                    
+                  <li>Contact ons</li>
+                   </Link>
                 </ul>
               </div>
             </div>
           </div>
           <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
-          <div
-            data-aos-delay='800'
-            data-aos='flip-left'
-            data-aos-duration='1500'
-            className='sm:flex sm:items-center sm:justify-between mx-auto w-full max-w-screen-xl mb-12'
-          >
+          <div className='sm:flex sm:items-center sm:justify-between mx-auto w-full max-w-screen-xl mb-12'>
             <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
               © 2023{' '}
               <a href='https://flowbite.com/' className='hover:underline'>

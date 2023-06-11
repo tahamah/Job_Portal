@@ -4,26 +4,20 @@ const Contact = () => {
   return (
     <div className='max-w-6xl mx-auto md:flex items-center'>
       <div className='md:w-1/2 mt-16 mx-10 md:mx-0'>
-        <h4 className='text-xl font-medium text-blue-700'>Contact Us</h4>
+        <h4 className='text-xl font-medium text-blue-700'>Contact ons</h4>
         <div className='w-16 h-0.5 mt-1 ml-3 mb-3  bg-black'></div>
-        <h1 className='md:text-4xl text-3xl font-medium leading-relaxed'>
-          Ben je geïnteresseerd in
-          <br />
-          Online leren?
-          <br /> Neem contact met ons op.
-        </h1>
-        <p className='mt-10 leading-loose'>
-          Neem contact op met onze eersteklas pedagoog in
-          <br /> het VK dat een enorme expertise heeft in
-          <br /> het bieden van futuristische oplossingen die allemaal ambitieus
-          zijn
-          <br />
-          studenten die naar het hoger onderwijs komen.
+
+        <p className='mt-10 md:mr-28 leading-loose text-justify'>
+          Als u op zoek bent naar professioneel en gekwalificeerd personeel in
+          de zorg, bent u bij flex bureau zekerheid aan het juiste adres. Neem
+          vandaag nog contact met ons op en ontdek hoe we u kunnen ondersteunen
+          bij het vervullen van uw personeelsbehoeften. Samen streven we naar
+          uitmuntendheid in de zorg.
         </p>
         <p className='mt-5 text-lg font-medium text-gray-500 mb-1'>
-          Brayden Backham
+          Flex bureau zekerheid
         </p>
-        <p>Director</p>
+
       </div>
 
       <div className='md:w-1/2 mx-10 md:mx-0'>

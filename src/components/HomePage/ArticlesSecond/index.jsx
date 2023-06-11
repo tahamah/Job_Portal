@@ -12,14 +12,14 @@ const ArticlesSecond = () => {
   return (
     <div className='max-w-6xl mx-auto px-6 md:px-0 mt-10'>
     
-      <h1 className='text-center text-4xl  font-bold mb-10 mt-20 leading-10'>
-        speciale aanbiedingen en <br /> onze professionele ondersteuning
+      <h1 className='text-center text-5xl  font-bold mb-10 mt-20 leading-relaxed'>
+        Speciale aanbiedingen en <br /> onze professionele ondersteuning
       </h1>
       <div className='flex flex-col-reverse md:flex-row gap-20 justify-between items-start pb-32'>
         <div data-aos='fade-right' className='grow'>
-          <h3 className='text-xl font-semibold mb-3'>wij bieden</h3>
+          <h3 className='text-xl font-semibold mb-3'>Wij bieden</h3>
           <p className='leading-loose text-justify'>
-            Daarnaast bieden we agogen en begeleiders die gespecialiseerd zijn
+          agogen en begeleiders die gespecialiseerd zijn
             in het ondersteunen en begeleiden van mensen met speciale behoeften.
             Ze hebben ervaring in het werken met diverse doelgroepen, zoals
             mensen met een verstandelijke beperking, psychische aandoeningen of
@@ -31,7 +31,7 @@ const ArticlesSecond = () => {
         <div data-aos='fade-left' className=' max-w-lg grow-0'>
           <h3 className='text-xl font-semibold mb-3'>Als u behoefte</h3>
           <p className='leading-loose text-justify'>
-            Als u behoefte heeft aan toezichthouders en beveiligingspersoneel,
+            heeft aan toezichthouders en beveiligingspersoneel,
             kunt u ook op ons rekenen. Onze professionals zijn goed getraind in
             het handhaven van de veiligheid en het waarborgen van de integriteit
             binnen zorginstellingen. Ze zijn bekend met protocollen en
