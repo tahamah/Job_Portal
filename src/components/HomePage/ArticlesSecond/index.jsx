@@ -17,7 +17,7 @@ const ArticlesSecond = () => {
       </h1>
       <div className='flex flex-col-reverse md:flex-row gap-20 justify-between items-start pb-32'>
         <div data-aos='fade-right' className='grow'>
-          <h3 className='text-xl font-semibold mb-3'>Wij bieden</h3>
+          <h3 className='text-3xl font-semibold mb-3'>Wij bieden</h3>
           <p className='leading-loose text-justify'>
           agogen en begeleiders die gespecialiseerd zijn
             in het ondersteunen en begeleiden van mensen met speciale behoeften.
@@ -29,7 +29,7 @@ const ArticlesSecond = () => {
           </p>
         </div>
         <div data-aos='fade-left' className=' max-w-lg grow-0'>
-          <h3 className='text-xl font-semibold mb-3'>Als u behoefte</h3>
+          <h3 className='text-3xl font-semibold mb-3'>Als u behoefte</h3>
           <p className='leading-loose text-justify'>
             heeft aan toezichthouders en beveiligingspersoneel,
             kunt u ook op ons rekenen. Onze professionals zijn goed getraind in
