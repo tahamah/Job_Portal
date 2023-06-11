@@ -2,31 +2,17 @@ import Image from 'next/image'
 import React from 'react'
 import { MdDone } from 'react-icons/md'
 import Section_Img from '../../../assets/Section_Img.png'
-import Article2 from '../../../assets/Article-1.png'
-import Article1 from '../../../assets/Article-2.png'
+import Article1 from '../../../assets/Article-1.png'
+import Article2 from '../../../assets/Article-2.png'
 import Article3 from '../../../assets/Article-3.png'
 import { SiAltiumdesigner } from 'react-icons/si'
 import { BiCustomize } from 'react-icons/bi'
 
-const Articles = () => {
+const ArticlesSecond = () => {
   return (
     <div className='max-w-6xl mx-auto px-6 md:px-0 mt-10'>
-      <div className='md:flex gap-20 justify-between items-center'>
-        <div data-aos='fade-up-right' className=' max-w-lg'>
-          <h3 className='text-3xl font-semibold mb-5'>Zoeken banen</h3>
-          <p className='leading-loose text-justify '>
-            Ons team van verpleegkundigen bestaat uit bekwame en empathische
-            zorgprofessionals die zorgen voor hoogwaardige medische zorg aan
-            patiënten. Ze hebben ervaring in verschillende medische
-            specialisaties en zijn goed op de hoogte van de nieuwste
-            ontwikkelingen in de gezondheidszorg.
-          </p>
-        </div>
-        <div data-aos='fade-up-left'>
-          <Image height={300} width={500} src={Article1} alt='' />
-        </div>
-      </div>
-      {/* <h1 className='text-center text-4xl  font-bold mb-10 mt-20 leading-10'>
+    
+      <h1 className='text-center text-4xl  font-bold mb-10 mt-20 leading-10'>
         speciale aanbiedingen en <br /> onze professionele ondersteuning
       </h1>
       <div className='flex flex-col-reverse md:flex-row gap-20 justify-between items-start pb-32'>
@@ -54,28 +40,10 @@ const Articles = () => {
             medewerkers als patiënten.
           </p>
         </div>
-      </div> */}
-      <div className='md:flex gap-20 justify-between items-center py-32'>
-        <div data-aos='fade-up-left'>
-          <Image height={300} width={500} src={Article3} alt='' />
-        </div>
-        <div data-aos='fade-up-right' className=' max-w-lg'>
-          <h3 className='text-3xl font-semibold mb-5'>
-            kwaliteit, betrouwbaarheid en flexibiliteit.
-          </h3>
-
-          <p className='leading-loose  text-justify'>
-            Bij flex bureau zekerheid hechten we grote waarde aan kwaliteit,
-            betrouwbaarheid en flexibiliteit. We begrijpen dat de zorgsector
-            vaak te maken heeft met onvoorziene omstandigheden en plotselinge
-            personeelstekorten. Daarom zijn we er trots op dat we snel en
-            efficiënt kunnen inspelen op uw behoeften en u kunnen voorzien van
-            hoogwaardig personeel op korte termijn.
-          </p>
-        </div>
       </div>
+    
     </div>
   )
 }
 
-export default Articles
+export default ArticlesSecond

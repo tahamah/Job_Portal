@@ -17,7 +17,7 @@ const HeroSection = () => {
           <div className=' absolute top-44 z-50'>
             <Image src={Left_Shap} alt='Shap' />
           </div>
-         
+
           <div className='flex max-w-6xl mx-auto items-center'>
             <div className='w-2/3 relative pl-5 md:pl-0'>
               <div className=' absolute top-16 left-[180px]'>
@@ -28,14 +28,15 @@ const HeroSection = () => {
                 Wij vinden de beste
                 <br /> banen voor jou{' '}
               </h1>
-              <p className='text-gray-400 text-normal font-medium leading-loose'>
-                left side description with large welcome note and then small:
-                Welkom bij [Naam van uw uitzendbureau] in de zorg! Wij zijn een
-                betrouwbare partner die gespecialiseerd is in het leveren van
-                hoogwaardig personeel voor de zorgsector.
+              <p className='text-gray-400  text-lg font-medium leading-loose'>
+                Welkom bij{' '}
+                <span className=' font-bold'>flex bureau zekerheid</span> in de
+                zorg! Wij zijn een betrouwbare partner die <br />
+                gespecialiseerd is in het leveren van hoogwaardig personeel voor
+                de zorgsector.
               </p>
               <div className='relative'>
-                <p className='text-gray-600 text-normal font-medium leading-loose'>
+                <p className='text-gray-600 text-normal text-lg  font-medium leading-loose'>
                   Met trots bieden wij een breed scala aan gekwalificeerde
                   professionals, variërend van verpleegkundigen tot agogen,
                   begeleiders, toezichthouders en beveiligingspersoneel.
@@ -55,7 +56,6 @@ const HeroSection = () => {
         </div>
         {/* Mobile */}
         <div className=' md:hidden  '>
-        
           <div className=''>
             <Image src={Hero_Section} alt='Hero Image' />
           </div>
